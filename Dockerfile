@@ -5,8 +5,8 @@ RUN apk add --no-cache curl
 
 WORKDIR /server
 
-RUN npm install -g yarn@3.2.1
 RUN corepack enable
+RUN yarn set version  3.2.1
 COPY package.json yarn.lock .yarnrc.yml ./
 
 RUN yarn install --frozen-lockfile
