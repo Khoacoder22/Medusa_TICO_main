@@ -1,0 +1,4 @@
+[submodule "src/admin/dashboard"]
+	path = src/admin/dashboard
+	url = git@gitlab.com:hphudev.phule/tico-admin.git
+	branch = dev
